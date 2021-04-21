@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+/*@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');*/
+
+body {
+    background: #eee;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden ! important; 
+}
+.img1 {
+    content:url('../images/1.png');
+}
+.img2 {
+    content:url('../images/2.png');
+}
+.img3{
+    content:url('../images/3.png');
+}
+.img4 {
+    content:url('../images/4.png');
+}
+.img5 {
+    content:url('../images/5.png');
+}
+.img6 {
+    content:url('../images/6.png');
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left:15px
+}
+
+.our-services {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    /*padding-bottom: 30px;
+    padding: 0 0px;*/
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+.our-services .icon {
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+    color: #fff
+}
+
+.bgHover_1:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.bgHover_2:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+.bgHover_3:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+.bgHover_4:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+}
+
+.bgHover_5:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+}
+
+.bgHover_6:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body{
+    margin-top:20px;
+    background:#eee;
+}
+.card::after {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: 35px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    content: '';
+    z-index: -1;
+}
+a.card {
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.d-block {
+    display: block !important;
+}
+img, figure {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.card-text {
+    padding-top: 12px;
+    color: #8c8c8c;
+}
+
+.text-sm {
+    font-size: 12px !important;
+}    
+p, .p {
+    margin: 0 0 16px;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pt-1, .py-1 {
+    padding-top: .25rem !important;
+}
+
+.head-icon{
+    margin-top:18px;
+    color:#FF4500
+} 
+*/

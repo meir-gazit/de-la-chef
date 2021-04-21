@@ -1,0 +1,42 @@
+{
+  "name": "De-La-Chef",
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "FAST_REFRESH=true react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@tippy.js/react": "^3.1.1",
+    "bootstrap": "^3.4.1",
+    "contentful": "^8.2.1",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^2.6.4",
+    "firebase": "^8.4.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-social-icons": "^5.1.0",
+    "react-uicomp": "^3.0.1",
+    "styled-components": "^5.2.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

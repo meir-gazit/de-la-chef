@@ -1,0 +1,201 @@
+.css-8qn308 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #012b33;/*#003a45;*/
+}
+
+@media (max-width:800px) {
+    .css-8qn308 {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+}
+
+.css-5r4unj {
+    display: grid;
+    grid-template-columns: repeat(6, 77px);
+    grid-gap: 40px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /*padding: 40px 0;*/
+    margin: 0 auto;
+}
+
+@media (max-width:800px) {
+    .css-5r4unj {
+        grid-template-columns: repeat(3, 77px);
+        grid-gap: 64px 32px;
+        -webkit-box-pack: space-evenly;
+        -webkit-justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:540px) {
+    .css-5r4unj {
+        grid-template-columns: repeat(2, 77px);
+        max-width: 300px;
+    }
+}
+
+.css-uo4fcy {
+    font-family: Crushed;
+    font-size: 3rem;
+    letter-spacing: var(--mainSpacing);
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto 40px;
+    color: #fff;
+    text-decoration:underline;
+}
+
+.css-1ujqg4j {
+    max-width: 942px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:800px) {
+    .css-1ujqg4j {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+/* SOCIAL MEDIA*/
+/*.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}*/
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #fff;
+}
+
+a.instagram {
+  color: #eb3223;
+}
+
+a.Slack {
+  color: #eb3223;
+}
+
+a.Zoom {
+  color: #eb3223;
+}
+
+a.deliveroo {
+  color: #eb3223;
+}
+
+a.nytimes {
+  color: #eb3223;
+}
+
+a.github {
+  color: #eb3223;
+}
+
+.coinbase {
+  color: #eb3223;
+  margin-left: -20px;
+}
+
+a.coinbase {
+  color: #eb3223;
+  margin-left: -20px;
+}
+
+a.classPass {
+  color: #eb3223;
+}
+
+a.dropbox {
+  color: #eb3223;
+}
+
+a.square {
+  color: #eb3223;
+}
+
+a.walgreens {
+  color: #eb3223;
+}
+
+a.microsoft {
+  color: #eb3223;
+}
+/*
+.copyRights{
+  color: #ffffff; 
+  text-align: 'center'; 
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.copyRightsHR{
+  width: 80%;
+  color: white; 
+  text-align: 'center'; 
+  margin: 0 auto;
+}
+.copyRightsP{
+  width: 80%;
+  color: #ffffff; 
+  text-align: 'center'; 
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: -40px;
+}*/
+
+
+.footerTitle{
+  color: #ffffff; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*.footerTitle hr{
+margin-top: 150px;
+}*/
+
+.hr{
+  background-color: white;
+  color: red; 
+  min-height: 1px;
+  width: 80%; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin: 0 auto;
+  /*border: 1px solid white;*/
+}
+
+/* SOCIAL MEDIA*/

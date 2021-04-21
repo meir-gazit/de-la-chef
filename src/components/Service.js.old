@@ -1,0 +1,78 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+
+
+export default function Service({service, row = null}) {
+
+	const {
+		card, 
+		href, 
+		circle, 
+		svg,
+		cardBody, 
+		cardTitle, 
+		title, 
+		cardDescription, 
+		description, 
+		learnMore, 
+		icon
+	} = service
+
+	function addService(props) {
+
+		const { service, row } = props
+
+		if(row === null){
+			// case no row have been send we have to create a new on
+			let divRow = React.createElement( 'div', { className: 'row', key: `${service.index}` } )
+			divRow.appendChild(
+				<div className='column' key={service.index}>
+				    <a className={service.card} href={service.href}>
+				        <div className={service.circle}>{service.svg}</div>
+				        <div className={service.cardBody}>
+				            <h3 className={service.cardTitle}>{service.title}</h3>
+				            <p className={service.cardDescription}>{service.description}</p>
+				            <span className={service.learnMore}>Learn More&nbsp;<i className={service.icon}></i></span>
+				        </div>
+				    </a>
+				</div>
+			)
+			return divRow
+
+		}else{
+			// case we have a row we only have to append  culumn to it
+			row.appendChild(
+				<div className='column' key={service.index}>
+				    <a className={service.card} href={service.href}>
+				        <div className={service.circle}>{service.svg}</div>
+				        <div className={service.cardBody}>
+				            <h3 className={service.cardTitle}>{service.title}</h3>
+				            <p className={service.cardDescription}>{service.description}</p>
+				            <span className={service.learnMore}>Learn More&nbsp;<i className={service.icon}></i></span>
+				        </div>
+				    </a>
+		        </div>
+			)
+			return row
+
+		}
+	}
+
+  
+  return addService(service, row)
+}
+
+Service.propTypes = {
+	Service: PropTypes.shape({
+		card: PropTypes.string.isRequired,
+		title: PropTypes.string.isRequired,
+		href: PropTypes.string.isRequired,
+		circle: PropTypes.string.isRequired,
+		cardBody: PropTypes.string.isRequired,
+		cardTitle: PropTypes.string.isRequired,
+		cardDescription: PropTypes.string.isRequired,
+		description: PropTypes.string.isRequired,
+		learnMore: PropTypes.string.isRequired,
+		icon: PropTypes.string.isRequired
+  })
+}	
