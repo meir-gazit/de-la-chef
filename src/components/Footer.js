@@ -15,7 +15,7 @@ import {
 }  from '../assets'
 import '../assets/css/footer.css'
 import Tippy from '@tippy.js/react'
-import 'tippy.js/dist/tippy.css'
+import '../assets/css/tippy.css'
 
 export default () => 
 <section className="css-8qn308">

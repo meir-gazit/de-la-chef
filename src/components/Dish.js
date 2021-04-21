@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import defaultImg from '../assets/images/defaultImg.jpeg'
 import PropTypes from 'prop-types'
 import Tippy from '@tippy.js/react'
-import 'tippy.js/dist/tippy.css'
+import '../assets/css/tippy.css'
 
 export default function Dish({dish}) {
 	const {

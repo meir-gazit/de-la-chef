@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Cover, Poster } from '../components'
 import Tippy from '@tippy.js/react'
-import 'tippy.js/dist/tippy.css'
+import '../assets/css/tippy.css'
 
 // eslint-disable-next-line
 export default () => 

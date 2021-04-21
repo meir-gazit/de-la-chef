@@ -7,7 +7,7 @@ import {
 	FaBeer
 } from 'react-icons/fa'
 import Tippy from '@tippy.js/react'
-import 'tippy.js/dist/tippy.css'
+import '../assets/css/tippy.css'
 
 // eslint-disable-next-line
 export default class extends Component {
